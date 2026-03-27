@@ -1,52 +1,17 @@
-# Prerequisites
-*.d
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# User-specific / secrets (never commit connection strings)
+.env
+.env.*
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# OS
+.DS_Store
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# IDE
+.vs/
+.idea/
+*.user
